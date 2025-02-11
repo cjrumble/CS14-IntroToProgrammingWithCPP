@@ -35,3 +35,26 @@ int main()
     return 0;
 }
 */
+/*
+Hand trace a c++ program with 4 to 6 variables that values change through the program.
+Hand tracing is a debugging process where you pretend that you are the computer executing
+a program. You step through each of the programs statements one by one. As you look
+at a statement, you record the contents that each variable will have after the statement executes.
+This process is often helpful in finding mathematical mistakes and other logic errors.
+To hand trace a program, you consrruct a charr with a column for each variable. The rows
+in the chart correspond ro rhe lines in rhe program. For example, Program 3-27 is shown
+with a hand trace chart. The program uses the following four variables: num1, num2, num3,
+and avg. */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1;
+    float num2;
+    double num3;
+    long double avg;
+    cout << "The value of num1 is " << num1 << ", num2 is " << num2 << ", num3 is " << num3 << " and avg is " << avg << endl;
+    return 0;
+}
