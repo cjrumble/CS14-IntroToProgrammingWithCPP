@@ -1,7 +1,7 @@
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
-/* types memory sizes
+// types memory sizes
 int main()
 {
     cout << sizeof(char) << endl;        // 1
@@ -46,6 +46,7 @@ in the chart correspond ro rhe lines in rhe program. For example, Progra
 with a hand trace chart. The program uses the following four variables: num1, num2, num3,
 and avg. */
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -56,5 +57,49 @@ int main()
     double num3;
     long double avg;
     cout << "The value of num1 is " << num1 << ", num2 is " << num2 << ", num3 is " << num3 << " and avg is " << avg << endl;
+    return 0;
+} */
+
+/* Scratchpad example 2
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    x = 3 / static_cast<int>(4.5 + 6.4);
+    cout << x << endl;
+
+    double average;
+    average = 1.0 + 2.0 + 3.0 / 3.0;
+    cout << average << endl;
+
+    int length, width, height;
+    cin.get(length >> width >> height);
+    cout << length << " " << width << " " << height << endl;
+} */
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    int modelYear;
+    string modelName;
+    cout << "Enter model year: ";
+    cin >> modelYear;
+    cout << "Enter model name: ";
+    cin >> modelName;
+
+    if ((modelYear >= 1999 && modelYear <= 2002) && (modelName == "Extravagant"))
+        || ((modelYear >= 2004 && modelYear <= 2007) && (modelName == "Guzzler"))
+        {
+            cout << "RECALL";
+        }
+    else
+    {
+        cout << "NO RECALL";
+    }
     return 0;
 }
