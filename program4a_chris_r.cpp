@@ -1,5 +1,8 @@
-/* CRUMBLE Program #4: Do Math - Perform a math operation of the user’s choice on two numbers.
- */
+/* CRUMBLE 2/24/2025
+Program #4: Do Math - Perform a math operation of the user’s choice on two numbers. */
+/* Important: Program (.cpp)Naming Standard
+All lower case, no spaces, program word, program number and letter, first name and first initial of last name and .cpp extension.  Use underscore symbol to separate fields. Ex. lab4a_james_m.cpp
+*/
 
 #include <iostream> // input and ouput library.
 #include <cmath>    // needed for all math functions.
