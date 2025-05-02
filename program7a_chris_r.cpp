@@ -62,7 +62,7 @@ int main()
 {
     const int SIZE = 15;
     int numbers[SIZE];
-    int inputNumber;
+    // int inputNumber;
 
     GetInput(numbers, SIZE);
     GetInteger(numbers, SIZE);
