@@ -1,4 +1,6 @@
-The high value is: 0
-The low value is: 100
-There average is: 0
-7.20
+Equation: 78x^2 + 92x + 120
+No real roots.
+Equation: 12x^2 + 56x + 60
+Roots: r1 = -1.66667, r2 = -3
+Equation: 0x^2 + 11x + 68
+This is a linear equation, no roots.

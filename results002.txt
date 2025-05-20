@@ -1,0 +1,51 @@
+Baseball Season 2024
+--------------------------------
+Jackson Adam	Player 1
+Bush George	Player 2
+Miller Reggie	Player 3
+Carter Jimmy	Player 4
+Clinton Bill	Player 5
+Jonas Joe	Player 6
+Washington George	Player 7
+Hamilton Alexander	Player 8
+Mann Michael	Player 9
+Cruise Tom	Player 10
+Nixon Richard	Player 11
+Reagan Ronald	Player 12
+Powers Austin	Player 13
+Kent Clark	Player 14
+Holly Buddy	Player 15
+Lennon John	Player 16
+Franklin Ben	Player 17
+Einstein Albert	Player 18
+Crocket Davey	Player 19
+Ritter Jack	Player 20
+
+Player statistic with their total hits, total walks, total outs, batting and on base average for season 2024.
+Player	Number	Hits	Walks	Outs	Batting Avg	On Base Avg	In Disabled List
+-------------------------------------------------------------------------------------------
+Bush George	2	0	0	0						Yes
+Carter Jimmy	4	0	0	0						Yes
+Clinton Bill	5	3	5	5	0.38		0.62
+Crocket Davey	19	4	3	4	0.50		0.64
+Cruise Tom	10	1	1	1	0.50		0.67
+Einstein Albert	18	0	0	0						Yes
+Franklin Ben	17	0	0	0						Yes
+Hamilton Alexander	8	2	1	3	0.40		0.50
+Holly Buddy	15	15	12	13	0.54		0.68
+Jackson Adam	1	1	2	2	0.33		0.60
+Jonas Joe	6	4	2	1	0.80		0.86
+Kent Clark	14	5	5	5	0.50		0.67
+Lennon John	16	0	0	0						Yes
+Mann Michael	9	5	2	3	0.62		0.70
+Miller Reggie	3	1	1	1	0.50		0.67
+Nixon Richard	11	2	2	5	0.29		0.44
+Powers Austin	13	0	0	0						Yes
+Reagan Ronald	12	3	3	2	0.60		0.75
+Ritter Jack	20	2	2	1	0.67		0.80
+Washington George	7	3	2	1	0.75		0.83
+
+The best hitter with batting average of 0.80: Bush Carter Clinton Crocket Cruise Einstein Franklin Hamilton Holly Jackson Jonas Kent Lennon Mann Miller Nixon Powers Reagan Ritter Washington 
+The worst hitter with batting average of 0.29: Bush Carter Clinton Crocket Cruise Einstein Franklin Hamilton Holly Jackson Jonas Kent Lennon Mann Miller Nixon Powers Reagan Ritter Washington 
+The best base runner with on base average of 0.86: Bush Carter Clinton Crocket Cruise Einstein Franklin Hamilton Holly Jackson Jonas Kent Lennon Mann Miller Nixon Powers Reagan Ritter Washington 
+The worst base runner with on base average of 0.44: Bush Carter Clinton Crocket Cruise Einstein Franklin Hamilton Holly Jackson Jonas Kent Lennon Mann Miller Nixon Powers Reagan Ritter Washington 

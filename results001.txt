@@ -45,7 +45,7 @@ Smith Sam	1	2	2	3	0.40		0.57
 Tso Terry	10	2	1	1	0.67		0.75
 Zutter Tommy	7	1	2	3	0.25		0.50
 
-The best hitter with batting average of 1.00: Buzz Jackson 
+The best hitter with batting average of 1.00: Apbee Buzz Carter Crane Duncan Elfin Greene Hoo Jackson Johnson Jones Knight Lenn Miller Neon Ora Rutter Smith Tso Zutter 
 The worst hitter with batting average of 0.17: Apbee Buzz Carter Crane Duncan Elfin Greene Hoo Jackson Johnson Jones Knight Lenn Miller Neon Ora Rutter Smith Tso Zutter 
 The best base runner with on base average of 1.00: Apbee Buzz Carter Crane Duncan Elfin Greene Hoo Jackson Johnson Jones Knight Lenn Miller Neon Ora Rutter Smith Tso Zutter 
 The worst base runner with on base average of 0.44: Apbee Buzz Carter Crane Duncan Elfin Greene Hoo Jackson Johnson Jones Knight Lenn Miller Neon Ora Rutter Smith Tso Zutter 

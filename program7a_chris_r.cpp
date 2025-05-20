@@ -1,10 +1,8 @@
-/* CRUMBLE 4/15/2025 Program #7A: Numbers with Array
-propt user to find theh number in the position in the array
-*/
+/* CRUMBLE 4/21/2025
+Program #7A : Write a C++ program that uses an array to store numbers, manipulate them, then output from the array. */
 
 #include <iostream>
 using namespace std;
-
 // Function to get input from user
 void GetInput(int arr[], int size)
 {
@@ -14,32 +12,39 @@ void GetInput(int arr[], int size)
         cin >> arr[i];
     }
 }
-
-// Function to get integer from user
+// Function to get integer from user.
 void GetInteger(int arr[], int size)
 {
-    int inputNumber;
+    int inputNumber, index_num;
+    string position;
     do
     {
         cout << "Enter a number to see (0 to end): ";
         cin >> inputNumber;
-
-        if (inputNumber != 0)
+        if (inputNumber >= 0 && inputNumber <= size)
         {
-            bool found = false;
-            for (int i = 0; i < size; i++)
+            index_num = inputNumber - 1; // Adjust for 0-based index.
+            if (index_num == 1)
             {
-                if (arr[i] == inputNumber)
-                {
-                    cout << "You entered: " << arr[i] << endl;
-                    found = true;
-                    break;
-                }
+                position = "st";
             }
-            if (!found)
+            else if (index_num == 2)
             {
-                cout << "Number not found in the array." << endl;
+                position = "nd";
             }
+            else if (index_num == 3)
+            {
+                position = "rd";
+            }
+            else
+            {
+                position = "th";
+            }
+            cout << "The " << inputNumber << position << " input you entered is " << arr[index_num] << endl;
+        }
+        else
+        {
+            cout << "Number not found in the array." << endl;
         }
     } while (inputNumber != 0);
 }
@@ -57,16 +62,17 @@ void PrintNumbers(int arr[], int size)
     }
     cout << endl;
 }
-
 int main()
 {
-    const int SIZE = 15;
-    int numbers[SIZE];
-    // int inputNumber;
+    const int SIZE = 15; // Size of the array
+    int arr[SIZE];       // Declare an array of integers
 
-    GetInput(numbers, SIZE);
-    GetInteger(numbers, SIZE);
-    PrintNumbers(numbers, SIZE);
+    GetInput(arr, SIZE);     // Get input from user
+    GetInteger(arr, SIZE);   // Get integer from user
+    PrintNumbers(arr, SIZE); // Print numbers
 
     return 0;
 }
+// End of main function
+// End of program
+// End of program7a_chris_ru.cpp
